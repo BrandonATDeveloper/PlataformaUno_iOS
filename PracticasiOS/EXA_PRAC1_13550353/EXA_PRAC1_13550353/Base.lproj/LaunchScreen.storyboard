@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Eng-Logo-hires-BW" translatesAutoresizingMaskIntoConstraints="NO" id="7Nn-41-fSJ">
+                                <frame key="frameInset" minX="67" minY="185" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="QSd-PD-lqZ"/>
+                                    <constraint firstAttribute="height" constant="128" id="qoi-tG-nl9"/>
+                                    <constraint firstAttribute="width" secondItem="7Nn-41-fSJ" secondAttribute="height" multiplier="15:8" id="vZa-Eg-Rf2"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="PLATAFORMA I" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7gw-8N-rbM">
+                                <frame key="frameInset" minX="93" minY="48" width="188" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="EXAMEN PRÁCTICO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftT-w6-tfZ">
+                                <frame key="frameInset" minX="85" minY="87" width="205" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1RA EVALUACION PARCIAL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4A-bV-kyf">
+                                <frame key="frameInset" minX="83" minY="122" width="209" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="E4A-bV-kyf" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0Ia-oK-Lre"/>
+                            <constraint firstItem="ftT-w6-tfZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="GbQ-6d-dk9"/>
+                            <constraint firstItem="ftT-w6-tfZ" firstAttribute="top" secondItem="7gw-8N-rbM" secondAttribute="bottom" constant="15" id="OQk-HK-uLE"/>
+                            <constraint firstItem="7Nn-41-fSJ" firstAttribute="top" secondItem="E4A-bV-kyf" secondAttribute="bottom" constant="42" id="U12-fk-LM7"/>
+                            <constraint firstItem="E4A-bV-kyf" firstAttribute="top" secondItem="ftT-w6-tfZ" secondAttribute="bottom" constant="14" id="bAL-au-4tc"/>
+                            <constraint firstItem="7gw-8N-rbM" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="sMP-t9-VFg"/>
+                            <constraint firstItem="7gw-8N-rbM" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="28" id="sOD-Ba-ozg"/>
+                            <constraint firstItem="7Nn-41-fSJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="yMt-cm-zam"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Eng-Logo-hires-BW" width="945" height="472"/>
+    </resources>
+</document>

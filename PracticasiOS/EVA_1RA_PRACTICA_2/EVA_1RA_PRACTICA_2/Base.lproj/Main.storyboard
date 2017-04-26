@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EVA_1RA_PRACTICA_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BKE-eW-wuB">
+                                <frame key="frameInset" minX="27" minY="57" width="328" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kia_stinger_detroit_auto_show_2017_1317" translatesAutoresizingMaskIntoConstraints="NO" id="mLb-nV-vXb">
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="mLb-nV-vXb" secondAttribute="height" multiplier="41:32" id="jOg-4o-2BX"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1475589417_835_Alfa-Romeo-revela-o-sedan-Giulia-ele-impressiona-com-510-cv" translatesAutoresizingMaskIntoConstraints="NO" id="D7W-aC-w8Y">
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="D7W-aC-w8Y" secondAttribute="height" multiplier="41:32" id="IzP-x8-eRn"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="58Y-h9-w1R">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TPu-qG-6aP">
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="TPu-qG-6aP" secondAttribute="height" multiplier="161:225" id="fKh-ve-r8w"/>
+                                        </constraints>
+                                        <string key="text">KIA Stinger 2018  The base engine is a 255-hp 2.0-liter turbo four; a 365-hp 3.3-liter twin-turbo V-6 is optional. Both models have an eight-speed automatic and either rear- or all-wheel drive. </string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="58Y-h9-w1R" secondAttribute="height" multiplier="161:225" id="L9f-0N-h2e"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hbr-rP-Y5d">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6nt-Al-Z7C">
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="6nt-Al-Z7C" secondAttribute="height" multiplier="161:225" id="fug-sr-DO0"/>
+                                            <constraint firstAttribute="width" constant="161" id="wd1-6u-6lH"/>
+                                        </constraints>
+                                        <string key="text">Alfa Romeo Giulia  The Giulia Quadrifoglio’s front-mounted, all-aluminum Twin-Turbo V6 engine and rear-wheel drive system, create a near perfect 50/50 weight distribution.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="hbr-rP-Y5d" secondAttribute="height" multiplier="161:225" id="qNa-Vz-2Aw"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="BKE-eW-wuB" secondAttribute="trailing" constant="8" id="48v-m2-26G"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hbr-rP-Y5d" secondAttribute="trailing" constant="11" id="4BT-F4-A8V"/>
+                            <constraint firstItem="hbr-rP-Y5d" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="173" id="4hi-qI-zuC"/>
+                            <constraint firstItem="6nt-Al-Z7C" firstAttribute="leading" secondItem="58Y-h9-w1R" secondAttribute="trailing" constant="6" id="7rI-mg-VHG"/>
+                            <constraint firstItem="BKE-eW-wuB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="37" id="E5e-9E-xVr"/>
+                            <constraint firstItem="58Y-h9-w1R" firstAttribute="centerY" secondItem="hbr-rP-Y5d" secondAttribute="centerY" id="HuK-bq-Anw"/>
+                            <constraint firstItem="58Y-h9-w1R" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="QJt-df-Hj3"/>
+                            <constraint firstItem="BKE-eW-wuB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="U78-VI-hoB"/>
+                            <constraint firstItem="BKE-eW-wuB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="irp-DX-M3Z"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1475589417_835_Alfa-Romeo-revela-o-sedan-Giulia-ele-impressiona-com-510-cv" width="695" height="454"/>
+        <image name="kia_stinger_detroit_auto_show_2017_1317" width="2040" height="1360"/>
+    </resources>
+</document>

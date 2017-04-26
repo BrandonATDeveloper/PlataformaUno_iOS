@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>2DA_EVA_6_PICKER_VIEW.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>28D1883E1E7AFF6D0050C7F6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>28D188521E7AFF720050C7F6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>28D1885D1E7AFF740050C7F6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EXA_PRAC1_13550353" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="13550353" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0iP-Zh-WlY">
+                                <frame key="frameInset" minX="138" minY="76" width="99" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.82852979274611394" green="0.63952125969561346" blue="0.33633340958076768" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Brandon Aguirre Trejo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jXW-E9-IkP">
+                                <frame key="frameInset" minX="65" minY="40" width="245" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.82251862046632129" green="0.63488138735514066" blue="0.33389323412040306" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Eng-Logo-hires-BW" translatesAutoresizingMaskIntoConstraints="NO" id="P3y-CC-0mn">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="P3y-CC-0mn" secondAttribute="height" multiplier="108:95" id="U4t-dt-Ejc"/>
+                                    <constraint firstAttribute="height" constant="95" id="YzX-Ln-mmK"/>
+                                    <constraint firstAttribute="width" constant="108" id="ejI-Zm-Tjq"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="small_Electrical_and_Computer_Engineering_Society_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="XMO-GQ-gfR">
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="XMO-GQ-gfR" secondAttribute="height" multiplier="108:95" id="Qma-al-is7"/>
+                                    <constraint firstAttribute="height" constant="95" id="h1y-d8-Cri"/>
+                                    <constraint firstAttribute="width" constant="108" id="owg-4B-bdv"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="development-512" translatesAutoresizingMaskIntoConstraints="NO" id="alT-kk-s1p">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="Von-cr-qkR"/>
+                                    <constraint firstAttribute="height" constant="95" id="Xq8-ki-NMX"/>
+                                    <constraint firstAttribute="width" secondItem="alT-kk-s1p" secondAttribute="height" multiplier="108:95" id="YdB-7O-M8g"/>
+                                </constraints>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="zNe-g9-U3j">
+                                <frame key="frameInset" minX="14" minY="287" width="347" height="31"/>
+                                <connections>
+                                    <action selector="crediSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="mJm-Do-nw2"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Wrd-tm-K3M">
+                                <frame key="frameInset" minX="19" minY="367" width="342" height="31"/>
+                                <connections>
+                                    <action selector="caliSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="UyM-gq-R6K"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Calificacion:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5uu-re-acb">
+                                <frame key="frameInset" minX="21" minY="338" width="98" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzV-nh-ILO">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3JO-9l-A3p">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Puntos para acreditar:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="83M-6T-lmT">
+                                <frame key="frameInset" minX="21" minY="258" width="148" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbS-oh-KXE">
+                                <frame key="frameInset" minX="169" minY="258" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zNe-g9-U3j" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="267" id="81E-NS-kdp"/>
+                            <constraint firstItem="jXW-E9-IkP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8hG-hO-yYC"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="P3y-CC-0mn" secondAttribute="leading" id="C17-7i-jHR"/>
+                            <constraint firstItem="Wrd-tm-K3M" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="C5o-bP-tST"/>
+                            <constraint firstItem="Wrd-tm-K3M" firstAttribute="top" secondItem="3JO-9l-A3p" secondAttribute="bottom" constant="8" id="GLz-pw-4T4"/>
+                            <constraint firstItem="qbS-oh-KXE" firstAttribute="centerY" secondItem="83M-6T-lmT" secondAttribute="centerY" id="IEH-jq-bgz"/>
+                            <constraint firstItem="alT-kk-s1p" firstAttribute="top" secondItem="0iP-Zh-WlY" secondAttribute="bottom" constant="28" id="LVs-ae-UsW"/>
+                            <constraint firstItem="qbS-oh-KXE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Loa-PK-jtk"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dzV-nh-ILO" secondAttribute="bottom" constant="20" id="N5Y-3i-sts"/>
+                            <constraint firstItem="83M-6T-lmT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NCp-HW-JYP"/>
+                            <constraint firstItem="XMO-GQ-gfR" firstAttribute="top" secondItem="0iP-Zh-WlY" secondAttribute="bottom" constant="28" id="OBu-Ux-WAI"/>
+                            <constraint firstItem="0iP-Zh-WlY" firstAttribute="top" secondItem="jXW-E9-IkP" secondAttribute="bottom" constant="8" id="OuM-09-0lc"/>
+                            <constraint firstItem="jXW-E9-IkP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="PMe-zn-Lp8"/>
+                            <constraint firstItem="Wrd-tm-K3M" firstAttribute="top" secondItem="5uu-re-acb" secondAttribute="bottom" constant="8" id="RIo-sl-NtV"/>
+                            <constraint firstItem="Wrd-tm-K3M" firstAttribute="top" secondItem="zNe-g9-U3j" secondAttribute="bottom" constant="50" id="TXn-l3-y4Y"/>
+                            <constraint firstItem="83M-6T-lmT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="Uyg-fe-UKG"/>
+                            <constraint firstItem="P3y-CC-0mn" firstAttribute="centerY" secondItem="XMO-GQ-gfR" secondAttribute="centerY" id="V9S-Vx-yh5"/>
+                            <constraint firstItem="zNe-g9-U3j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WdW-Z8-Tcw"/>
+                            <constraint firstItem="5uu-re-acb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="5" id="XtW-NH-cPZ"/>
+                            <constraint firstItem="dzV-nh-ILO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZO5-vD-zSu"/>
+                            <constraint firstItem="alT-kk-s1p" firstAttribute="centerY" secondItem="XMO-GQ-gfR" secondAttribute="centerY" id="Zsi-Va-9tU"/>
+                            <constraint firstItem="zNe-g9-U3j" firstAttribute="top" secondItem="XMO-GQ-gfR" secondAttribute="bottom" constant="67" id="b0M-QZ-1lZ"/>
+                            <constraint firstItem="5uu-re-acb" firstAttribute="leading" secondItem="3JO-9l-A3p" secondAttribute="trailing" constant="-148" id="c5S-H8-87B"/>
+                            <constraint firstItem="P3y-CC-0mn" firstAttribute="top" secondItem="0iP-Zh-WlY" secondAttribute="bottom" constant="28" id="gql-Fa-qNl"/>
+                            <constraint firstItem="5uu-re-acb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lEH-h6-dMv"/>
+                            <constraint firstItem="0iP-Zh-WlY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lir-NN-4Ua"/>
+                            <constraint firstItem="XMO-GQ-gfR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qz8-FW-rTu"/>
+                            <constraint firstItem="zNe-g9-U3j" firstAttribute="top" secondItem="qbS-oh-KXE" secondAttribute="bottom" constant="8" id="vF2-ML-VYb"/>
+                            <constraint firstItem="zNe-g9-U3j" firstAttribute="top" secondItem="83M-6T-lmT" secondAttribute="bottom" constant="8" id="wgJ-MM-n5v"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="alT-kk-s1p" secondAttribute="trailing" id="yGX-6j-2FS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblAR" destination="dzV-nh-ILO" id="5yq-hy-pYz"/>
+                        <outlet property="lblCali" destination="3JO-9l-A3p" id="hes-LL-DNF"/>
+                        <outlet property="lblCredi" destination="qbS-oh-KXE" id="WZ1-IU-e7N"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Eng-Logo-hires-BW" width="945" height="472"/>
+        <image name="development-512" width="512" height="512"/>
+        <image name="small_Electrical_and_Computer_Engineering_Society_Logo" width="225" height="228"/>
+    </resources>
+</document>
