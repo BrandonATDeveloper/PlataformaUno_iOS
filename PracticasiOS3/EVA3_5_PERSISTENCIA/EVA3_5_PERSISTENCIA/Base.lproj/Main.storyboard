@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EVA3_5_PERSISTENCIA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QkA-MU-UDO">
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hkZ-UE-I0L">
+                                <state key="normal" title="Read"/>
+                                <connections>
+                                    <action selector="btnLeer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sda-7R-gVY"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="10Z-DE-eOk">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r7G-9x-pCC">
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="btnGuardar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vFT-HD-dwO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="hkZ-UE-I0L" secondAttribute="trailing" constant="118" id="0LF-lb-2aZ"/>
+                            <constraint firstItem="10Z-DE-eOk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="6FW-q5-E6r"/>
+                            <constraint firstItem="r7G-9x-pCC" firstAttribute="top" secondItem="QkA-MU-UDO" secondAttribute="bottom" constant="18" id="8dV-7w-Aso"/>
+                            <constraint firstItem="hkZ-UE-I0L" firstAttribute="top" secondItem="QkA-MU-UDO" secondAttribute="bottom" constant="18" id="8zV-R0-CIP"/>
+                            <constraint firstItem="QkA-MU-UDO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="CXw-QB-qrn"/>
+                            <constraint firstItem="10Z-DE-eOk" firstAttribute="top" secondItem="QkA-MU-UDO" secondAttribute="bottom" constant="56" id="Txn-ll-eGf"/>
+                            <constraint firstItem="QkA-MU-UDO" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="U6f-8f-t3x"/>
+                            <constraint firstItem="QkA-MU-UDO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="263" id="W1r-oJ-i02"/>
+                            <constraint firstItem="10Z-DE-eOk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wp2-J1-dbg"/>
+                            <constraint firstItem="QkA-MU-UDO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eGt-D1-Hqa"/>
+                            <constraint firstItem="r7G-9x-pCC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="121" id="hMH-e0-eyM"/>
+                            <constraint firstItem="10Z-DE-eOk" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="zBo-c8-cR2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblMostrar" destination="10Z-DE-eOk" id="Arq-Wl-acy"/>
+                        <outlet property="txtFldDatos" destination="QkA-MU-UDO" id="S5W-W0-UFO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>
